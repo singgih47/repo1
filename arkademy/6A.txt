@@ -1,0 +1,5 @@
+(6)a. SELECT nm.name, wk.name, sl.salary 
+    FROM Name nm JOIN Kategori sl 
+				ON nm.id_salary = sl.id_salary 
+				JOIN Work wk 
+				ON nm.id_work = wk.id_work;
