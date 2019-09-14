@@ -1,0 +1,33 @@
+(1)
+function getBiodata() {
+  return {
+    “name”		: “Singgih”,
+    “age”			: 25,
+    “address		: “Jalan Ancol Selatan RT. 010 RW. 002 Nomor 34”,
+    “hobbies”		: [“Berenang”, “Badminton”] ,
+    “is_married”	: false ,
+    “list_school	“	: [
+					{
+      						“name”		: “SMAN 80 Jakarta”,
+      						“year_in”		: 2009,
+						“year_out	”	: 2012
+    			 		 },
+					{
+      						“name”		: “STTPLN,
+      						“year_in”		: 2013,
+						“year_out	”	: 2017
+    			 		 }	
+				  ], 
+    “skills”			: [
+					{
+      						“skill_name”	: “PHP”,
+      						“level”		: “adanved”
+    					},
+					{
+     						“name”		: “Java”,
+						“level”		: “beginner”
+    					}
+				  ],
+    interest_in_coding : true
+  }
+}
