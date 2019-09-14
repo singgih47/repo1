@@ -1,0 +1,21 @@
+function print_picture(size) 
+	{
+ 		 const star = ' * ';
+ 		 const line = ' = ';
+
+  		if(size % 2 == 0) return;
+		
+		console.log(' '.repeat(size / 2) + '--- panjang ---' + ' '.repeat(size / 2));
+
+  		for(var row = 0;  < size; row++) 
+			{
+    				if(Math.floor(size / 2) === row) 
+				{
+     	 			console.log(star.repeat(size));
+    				} 
+				else 
+				{
+      				console.log(star+line.repeat(size - 2)+star);
+  				}
+  			}
+	}
